@@ -5,7 +5,7 @@
         let countdownInterval; // تعريف المتغير في نطاق أوسع
 
         // شرط لمنع الإعلان على الصفحة الرئيسية
-        if (window.location.href !== "https://www.tun-24.com") {
+        if (window.location.href !== "https://www.tun-24.com/") {
             setTimeout(function () {
                 popupElement.style.display = "block";
 
